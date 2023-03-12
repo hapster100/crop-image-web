@@ -370,7 +370,7 @@ export class Cropper {
     this.drawCrop()
   }
 
-  async loadImageUrl(url: string) {
+  loadImageUrl(url: string) {
     this.img.src = url
   }
 }
